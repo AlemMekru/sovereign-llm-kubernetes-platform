@@ -6,9 +6,7 @@ A production-grade Kubernetes platform for deploying private LLM and RAG workloa
 
 ## Architecture
 
-```
 ![Architecture](assets/Architecture.png)
-```
 
 ## Project Structure
 
