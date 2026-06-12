@@ -6,9 +6,7 @@ A production-grade Kubernetes platform for deploying private LLM and RAG workloa
 
 ## Architecture
 
-```
 ![Architecture](assets/Architecture.png)
-```
 
 ## Project Structure
 
@@ -80,3 +78,7 @@ This repository is designed to showcase experience with:
 - Private LLM serving
 - Enterprise RAG systems
 - Production-style observability
+
+## Developer
+* Alem Mekru 
+* MSc. in Artificial Intelligence
