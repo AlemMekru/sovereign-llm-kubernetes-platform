@@ -17,7 +17,10 @@ sovereign-llm-kubernetes-platform/
 ├── .github/
 │   └── workflows/                  # CI/CD pipelines
 ├── apps/
-│   ├── api/                        # FastAPI gateway
+│   ├── api/
+│   │   ├── main.py                 # FastAPI application
+│   │   ├── requirements.txt        # Python dependencies
+│   │   └── Dockerfile              # Container definition
 │   ├── rag-service/                # Retrieval-Augmented Generation service
 │   └── web/                        # Frontend application
 ├── infra/
