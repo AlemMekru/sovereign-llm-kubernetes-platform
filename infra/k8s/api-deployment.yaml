@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sovereign-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sovereign-api
+  template:
+    metadata:
+      labels:
+        app: sovereign-api
+    spec:
+      containers:
+        - name: sovereign-api
+          image: ghcr.io/alemmekru/sovereign-api:0.1.0
+          ports:
+            - containerPort: 8000
